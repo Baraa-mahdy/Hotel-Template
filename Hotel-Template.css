@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.body-1 {
+    width: 220px;
+    height: 900px;
+    margin-left: 250px;
+    background-color: rgb(233, 233, 233);
+    border: 1px rgb(192, 192, 192) solid;
+    position: sticky;
+    top:0
+}
+
+.p-1 {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.p-2 {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.p-3 {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.p-4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.p-5 {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.p-6 {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.i {
+    width: 190px;
+    margin-left: 10px;
+}
+
+.w3-button {
+    margin-top: 20px;
+    font-weight:  unset ;
+}
+
+.parentDiv {
+    display: flex;
+}
+
+.body-2 {
+    margin-left: 20px;
+}
+
+.p-7 {
+    color: rgb(0, 198, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w3-display-container {
+    width: 750px;
+}
+
+.w3-row-padding {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    margin-left: -16px;
+    width: 784px;
+    height: 100px;
+}
+
+.p-8 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.p-9 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.p-10 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.p-11 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* .p-12-13 {
+    position: absolute;
+    left: 900px;
+    top: 700px;
+} */
+
+.reservation-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-1 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.w2 {
+    position: absolute;
+    left: 900px;
+    top: 900px;
+}
+
+.hr-2 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.hr-3 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.h-4 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.root {
+margin-top: 70px;
+}
+
+.rental {
+
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+
+.rental {
+    display: none;
+}
+
+.body-1 {
+    display: flex;
+}
+
+
+
+@media (max-width: 1113px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:390px){
+    .body-1 {
+        display: none;
+    }
+
+    .fa-bars {
+        margin-left: 171px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+
+    .fa-bars:hover {
+        background-color: #eee;
+        color: black;
+    }
+
+    .rental {
+        display: flex;
+    }
+}
